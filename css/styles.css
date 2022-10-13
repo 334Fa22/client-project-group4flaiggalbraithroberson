@@ -2,13 +2,12 @@
 Skyler, Sydney, Megan */
 /* Style rules for hamburger menu */
 .mobile-nav a {
-  color: #fff;
+  color: #000;
   font-family: "Francois One", sans-serif;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
   text-decoration: none;
   padding: 4%;
-  display: block;
 }
 
 .mobile-nav a.menu-icon {
@@ -50,7 +49,6 @@ footer .copyright {
   padding: 2% 4%;
   width: 75%;
 }
-
 
 mobile-nav a {
   color: #fff;

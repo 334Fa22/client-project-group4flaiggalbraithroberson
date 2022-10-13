@@ -41,6 +41,10 @@ header {
   background-color: #00563F;
 }
 
+.catpaws-logo {
+  display:none;
+}
+
 header img {
   padding: 20px;
 }
@@ -57,7 +61,7 @@ mobile-nav a {
   color: #fff;
   font-family: "Francois One", sans-serif;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
   text-decoration: none;
   padding: 3%;
   display: block;

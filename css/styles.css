@@ -18,3 +18,10 @@ Skyler, Sydney, Megan */
   right: 0;
   top: 0;
 }
+
+/*Footer content*/
+footer .copyright {
+  font-size: 0.6em;
+  padding: 2% 4%;
+  width: 75%;
+}

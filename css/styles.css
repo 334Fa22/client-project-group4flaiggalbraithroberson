@@ -5,12 +5,15 @@ Skyler, Sydney, Megan */
   color: #000;
   font-family: "Francois One", sans-serif;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
   text-decoration: none;
   padding: 4%;
+  display: block;
+  color: #fff;
+  background: #00563F;
 }
 
-.mobile-nav a.menu-icon {
+.mobile-nav, a.menu-icon {
   color: #fff;
   display: block;
   position: absolute;
@@ -42,7 +45,7 @@ header {
 }
 
 .catpaws-logo {
-  display:none;
+  display: none;
 }
 
 header img {

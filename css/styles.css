@@ -19,6 +19,19 @@ Skyler, Sydney, Megan */
   top: 0;
 }
 
+/*Style rules for header*/
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #00563F;
+  color: #fff;
+}
+
+h2 {
+  background-color: #00563F;
+  color: #fff;
+}
+
 /*Footer content*/
 footer .copyright {
   font-size: 0.6em;

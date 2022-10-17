@@ -76,3 +76,29 @@ mobile-nav a {
   right: 0;
   top: 0;
 }
+
+/*style rules for form elements*/
+feildset legend {
+  font-weight: bold;
+  font-size: 1em;
+  padding-top: 2%;
+}
+
+label {
+  display: block;
+  padding-top: 2%;
+  font-size: 15px;
+  background-color: #00563F;
+  color: #fff;
+}
+
+form #submit {
+  margin: 2em;
+  border: none;
+  display: block;
+  padding: 2%;
+  color: #fff;
+  background-color: #00563F;
+  font-size: 1em;
+  border-radius: 10px;
+}

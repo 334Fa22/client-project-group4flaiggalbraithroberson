@@ -1,25 +1,6 @@
 /* Styles.css
 Skyler, Sydney, Megan */
-/* Style rules for hamburger menu */
-.mobile-nav a {
-  color: #000;
-  font-family: "Francois One", sans-serif;
-  text-align: center;
-  font-size: 1em;
-  text-decoration: none;
-  padding: 4%;
-  display: block;
-  color: #fff;
-  background: #00563F;
-}
 
-.mobile-nav, a.menu-icon {
-  color: #fff;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
 
 /*Style rules for header*/
 h1 {
@@ -60,8 +41,7 @@ footer .copyright {
 }
 
 /*hamburger menu*/
-mobile-nav a {
-  color: #fff;
+.mobile-nav a {
   font-family: "Francois One", sans-serif;
   text-align: center;
   font-size: 1em;
@@ -71,11 +51,17 @@ mobile-nav a {
 }
 
 .mobile-nav a.menu-icon {
+color: #fff;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
 }
+
+#menu-links{
+  display:none;
+}
+
 
 /*style rules for form elements*/
 feildset legend {

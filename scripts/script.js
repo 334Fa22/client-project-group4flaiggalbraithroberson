@@ -1,8 +1,8 @@
 //Hamburger menu function
 function hamburger(){
 
-var menu = document.getEleentById("menu-links");
-var menu = document.getElementById("catpaws-logo");
+var menu = document.getElementById("menu-links");
+var logo = document.getElementById("catpaws-logo");
 
   if(menu.style.display === "block" && logo.style.display === "none"){
     menu.style.display = "none";

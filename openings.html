@@ -41,7 +41,65 @@
       <p><a href="index.html">HOME</a></p>
       <p>When Can I Enroll? | Preregistration Advisement Sheet</p>
       <p>Note: Publication of the trimester Class Schedule/Class Openings should not be considered a guarantee, and are subject to change based on availability of resources and programmatic needs.</p>
-      <p>For text book information, Click here</p>
+      <div id="form">
+        <form class="form-grid">
+
+          <feildset>
+            <legend> *Term selection required for all search criteria</legend>
+            <label for="term"> Select Term</label>
+            <select name="term" id="term">
+              <option value="fall">Fall 2022</option>
+              <option value="spring">Spring 2023</option>
+            </select>
+
+            <feildset>
+              <legend> *Department selection required for below search options</legend>
+              <label for="department"> * Search By Department: </label>
+              <select name="reference" id="reference">
+                <option value="fall">Fall 2022</option>
+                <option value="spring">Spring 2023</option>
+              </select>
+
+
+              <label for="level"> Select Level:</label>
+              <select name="reference" id="reference">
+                <option value="fall">Fall 2022</option>
+                <option value="spring">Spring 2023</option>
+              </select>
+
+              <label for="part of term"> Select Part of Term:</label>
+              <select name="reference" id="reference">
+                <option value="fall">Fall 2022</option>
+                <option value="spring">Spring 2023</option>
+              </select>
+
+              <label for="course attribute"> Select Course Attribute: </label>
+              <select name="reference" id="reference">
+                <option value="fall">Fall 2022</option>
+                <option value="spring">Spring 2023</option>
+              </select>
+
+              <label for="instructor"> Select Instructor: </label>
+              <select name="reference" id="reference">
+                <option value="fall">Fall 2022</option>
+                <option value="spring">Spring 2023</option>
+              </select>
+
+              <feildset>
+                <legend>*Search By Course Number ONLY - Other criteria are ignored </legend>
+                <label for="CRN">Enter by Course Number (5 Digit Number)</label>
+                <input type="text" name="CRN" id="CRN" required>
+
+                <legend>*Search By Northwest Core ONLY - Other Criteria are ignored</legend>
+                <label for="Core">Select Northwest Core Category</label>
+                <input type="text" name="Core" id="Core" required>
+
+                <input type="Submit" id="submit" value="Get Class Openings" classes="btn">
+
+        </form>
+
+
+        <p>For text book information, <a href="textbook.html">Click here</a></p>
 
     </main>
 

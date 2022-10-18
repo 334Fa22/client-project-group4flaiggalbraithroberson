@@ -1,5 +1,18 @@
 /* Styles.css
-Skyler, Sydney, Megan */
+
+Skyler, Sydnei, Megan */
+/* Style rules for hamburger menu */
+.mobile-nav a {
+  color: #000;
+  font-family: "Francois One", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 4%;
+  display: block;
+  color: #fff;
+  background: #00563F;
+}
 
 
 /*Style rules for header*/

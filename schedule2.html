@@ -81,9 +81,19 @@
             <label for="title">Title:</label>
             <input type="text" name="title" id="title">
 
-            <label for="daterange">Date Range (DD/MM/YYYY):</label>
-            <p>From: <input type="text" name="daterange" id="daterange"></p>
-            <p>To: <input type="text" name="daterange" id="daterange"></p>
+            <label for="creditrange">Credit Range:</label>
+            <p>From</p>
+            <select name="creditrange" id="creditrange">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+            </select>
+            <p>To</p>
+            <select name="creditrange" id="creditrange">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+            </select>
 
             <label for="courselevel">Course Level:</label>
             <select name="courselevel" id="courselevel">
@@ -99,11 +109,42 @@
               <option value="block1">7-Week Block 1</option>
               <option value="block2">7-Week Block 2</option>
               <option value="op1">Online Professional Block 1</option>
+              <option value="op2">Online Professional Block 2</option>
+              <option value="second">Second Block</option>
+            </select>
 
+            <label for="instructor">Instructor:</label>
+            <select name="instructor" id="instructor">
+              <option value="all">All</option>
+            </select>
 
+            <label for="attribute">Attribute Type:</label>
+            <select name="attribute" id="attribute">
+              <option value="all">All</option>
+              <option value="blended">Blended</option>
+              <option value="webonly">Web - Online Only Student</option>
+              <option value="webcourse">Web Course</option>
+            </select>
 
+            <label for="timerange">Time Range (Include AM/PM):</label>
+            <p>Start Time: <input type="text" name="timerange" id="timerange"></p>
+            <p>End Time: <input type="text" name="timerange" id="timerange"></p>
 
+            <label for="days">Day(s)</label>
+            <select name="days" id="days" multiple>
+              <option value="monday">Monday</option>
+              <option value="tuesday">Tuesday</option>
+              <option vlaue="wednesday">Wednesday</option>
+              <option value="thursday">Thursday</option>
+              <option value="friday">Friday</option>
+            </select>
 
+            <div class="button">
+              <button>Get Class Openings!</button>
+              </a>
+            </div>
+        </form>
+      </div>
 
     </main>
 

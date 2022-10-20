@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CatPaws</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!-- Use the header area for the website name or logo -->
+
+  <header id="catpaws-logo">
+    <img src="images/pawlogo.png" alt="Bearcat Logo" style="float:left; width:80px;height:85px;">
+    <h2>Northwest Missouri State</h2>
+    <h1>CATPAWS</h1>
+  </header>
+
+
+
+  <div id="container">
+
+    <!--Mobile Nav -->
+    <nav class="mobile-nav">
+      <div id="menu-links">
+        <a href="index.html">Home</a>
+        <a href="openings.html">Class Openings At-a-glance</a>
+        <a href="textbook.html">Textbook Services</a>
+        <a href="schedule.html">Class Schedule in Detail</a>
+        <a href="checkapp.html">Check Application Status</a>
+        <a href="accessibility.html">Accessibility</a>
+      </div>
+      <a class="menu-icon" onclick="hamburger()">
+        <div>&#9776;</div>
+      </a>
+    </nav>
+
+
+
+    <!-- Use the main area to add the main content of the webpage -->
+    <main>
+      <p><a href="index.html">HOME</a></p>
+      <p><a href="schedule.html">BACK</a></p>
+
+      <h1>Class Schedule in Detail</h1>
+
+      <div id="form">
+        <form class="form-grid">
+
+          <fieldset>
+            <label for="subject">Subject</label>
+            <select name="subject" id="subject">
+              <option value="accounting">Accounting</option>
+              <option value="agriculture">Agriculture</option>
+              <option value="art">Art</option>
+              <option value="biosciences">Biological Sciences</option>
+              <option value="chem">Chemistry</option>
+              <option value="comm">Communication</option>
+              <option value="CIS">Computer Science/Information Systems</option>
+              <option value="econ">Economics</option>
+              <option value="education">Education</option>
+              <option value="finance">Finance</option>
+              <option value="food">Foods &amp Nutrition</option>
+              <option value="geography">Geography</option>
+              <option value="geology">Geology</option>
+              <option value="health">Health &amp P.E.</option>
+              <option value="history">History</option>
+              <option value="humanities">Humanities</option>
+              <option value="international">International Studies</option>
+              <option value="lang">Languages</option>
+              <option value="management">Management</option>
+              <option value="marketing">Marketing</option>
+              <option value="media">Mass Media</option>
+              <option value="math">Mathematics &amp Statistics</option>
+            </select>
+
+            <label for="CRN">Course Number:</label>
+            <input type="text" name="CRN" id="CRN">
+
+            <label for="title">Title:</label>
+            <input type="text" name="title" id="title">
+
+            <label for="creditrange">Credit Range:</label>
+            <p>From</p>
+            <select name="creditrange" id="creditrange">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+            </select>
+            <p>To</p>
+            <select name="creditrange" id="creditrange">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+            </select>
+
+            <label for="courselevel">Course Level:</label>
+            <select name="courselevel" id="courselevel">
+              <option value="all">All</option>
+              <option value="graduate">Graduate</option>
+              <option value="specialist">Specialist</option>
+              <option value="undergrad">Undergraduate</option>
+            </select>
+
+            <label for="partofterm">Part of Term:</label>
+            <select name="partofterm" id="partofterm">
+              <option value="all">All</option>
+              <option value="block1">7-Week Block 1</option>
+              <option value="block2">7-Week Block 2</option>
+              <option value="op1">Online Professional Block 1</option>
+              <option value="op2">Online Professional Block 2</option>
+              <option value="second">Second Block</option>
+            </select>
+
+            <label for="instructor">Instructor:</label>
+            <select name="instructor" id="instructor">
+              <option value="all">All</option>
+            </select>
+
+            <label for="attribute">Attribute Type:</label>
+            <select name="attribute" id="attribute">
+              <option value="all">All</option>
+              <option value="blended">Blended</option>
+              <option value="webonly">Web - Online Only Student</option>
+              <option value="webcourse">Web Course</option>
+            </select>
+
+            <label for="timerange">Time Range (Include AM/PM):</label>
+            <p>Start Time: <input type="text" name="timerange" id="timerange"></p>
+            <p>End Time: <input type="text" name="timerange" id="timerange"></p>
+
+            <label for="days">Day(s)</label>
+            <select name="days" id="days" multiple>
+              <option value="monday">Monday</option>
+              <option value="tuesday">Tuesday</option>
+              <option vlaue="wednesday">Wednesday</option>
+              <option value="thursday">Thursday</option>
+              <option value="friday">Friday</option>
+            </select>
+
+            <div class="button">
+              <button>Get Class Openings!</button>
+              </a>
+            </div>
+        </form>
+      </div>
+
+    </main>
+
+    <!-- Use the footer area to add webpage footer content -->
+    <footer>
+      <div class="copyright">
+        <p>This website is for educational purposes only and is not meant to be used by the public.<br>
+          &copy; 2022 Ellucian Company L.P. and its affiliates. <br>
+          This software contains confidential and proprietary information of Ellucian or its subsidiaries.<br>
+          Use of this software is limited to Ellucian licensees, and is subject to the terms and conditions of one or more written license agreements between Ellucian and such licensees.</p>
+      </div>
+    </footer>
+
+
+
+  </div>
+
+  <script src="scripts/script.js"></script>
+
+</body>
+
+</html>

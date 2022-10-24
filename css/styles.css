@@ -14,7 +14,6 @@ Skyler, Sydnei, Megan */
   background: #00563F;
 }
 
-
 /*Style rules for header*/
 h1 {
   font-family: sans-serif;
@@ -64,17 +63,26 @@ footer .copyright {
 }
 
 .mobile-nav a.menu-icon {
-color: #fff;
+  color: #fff;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-#menu-links{
-  display:none;
+#menu-links {
+  display: none;
 }
 
+#form {
+  margin-top: 2%;
+  background-color: #f2f2f2;
+  padding: 2%;
+}
+
+#form h2 {
+  text-align: center;
+}
 
 /*style rules for form elements*/
 feildset legend {

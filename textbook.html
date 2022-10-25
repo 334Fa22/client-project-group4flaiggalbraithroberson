@@ -58,86 +58,86 @@
 
       <div id="form">
         <form class="form-grid">
-          <div class="column">
+
+          <feildset>
+            <legend> *Term selection required for all search criteria</legend>
+            <label for="term"> Select Term</label>
+            <select name="term" id="term">
+              <option value="fall">Fall 2022</option>
+              <option value="spring">Spring 2023</option>
+            </select>
+
             <feildset>
-              <legend> *Term selection required for all search criteria</legend>
-              <label for="term"> Select Term</label>
-              <select name="term" id="term">
+              <legend> *Department selection required for below search options</legend>
+              <label for="department"> * Search By Department: </label>
+              <select name="reference" id="reference">
+                <option value="accounting">Accounting/51</option>
+                <option value="agriculture">Agriculture/03</option>
+                <option value="art">Art/13</option>
+                <option value="biological sciences">Biological Sciences/04</option>
+                <option value="booth college bus & prof st/76">Booth College Bus & Prof St/76</option>
+                <option value="career education">Career Education/02</option>
+                <option value="chemistry">Chemistry/24</option>
+                <option value="college of arts & sciences">College of Arts & Sciences/71</option>
+                <option value="college of ed & human serv">College of Ed & Human Serv/73</option>
+                <option value="communications">Communications/29</option>
+                <option value="computer sci/info systems">Computer Sci/Info Systems/44</option>
+                <option value="criminology">Criminology/46</option>
+                <option value="economics">Economics/52</option>
+                <option value="education: curriculum">Education: Curriculum/Intr/62</option>
+                <option value="education: genl/leadership">Education: Genl/Leadership/61</option>
+                <option value="emergency and disaster">Emergency and Disaster Mgmt/36</option>
+                <option value="english">English/10</option>
+                <option value="family & consumer sciences">Family & Consumer Sciences/15</option>
+                <option value="finance">Finance/53</option>
+                <option value="foods and nutrition">Foods and Nutrition/47</option>
+                <option value="geography">Geography/32</option>
+                <option value="geology">Geology/27</option>
+                <option value="health & physical education">Health & Physical Education/22</option>
+                <option value="health sciences">Health Sciences/49</option>
+                <option value="history">History/33</option>
+                <option value="humanities">Humanities/26</option>
+                <option value="inter-college">Inter-College/77</option>
+                <option value="internationl study">International Study</option>
+              </select>
+
+
+
+              <label for="level"> Select Level:</label>
+              <select name="reference" id="reference">
+                <option value="all">ALL</option>
+                <option value="graduate">Graduate</option>
+                <option value="specialist">Specialist</option>
+                <option value="undergraduate">Undergraduate</option>
+              </select>
+
+              <label for="part of term"> Select Part of Term:</label>
+              <select name="reference" id="reference">
                 <option value="fall">Fall 2022</option>
                 <option value="spring">Spring 2023</option>
               </select>
 
+              <label for="course attribute"> Select Course Attribute: </label>
+              <select name="reference" id="reference">
+                <option value="fall">Fall 2022</option>
+                <option value="spring">Spring 2023</option>
+              </select>
+
+              <label for="instructor"> Select Instructor: </label>
+              <select name="reference" id="reference">
+                <option value="fall">Fall 2022</option>
+                <option value="spring">Spring 2023</option>
+              </select>
+
+
+
+
               <feildset>
-                <legend> *Department selection required for below search options</legend>
-                <label for="department"> * Search By Department: </label>
-                <select name="reference" id="reference">
-                  <option value="accounting">Accounting/51</option>
-                  <option value="agriculture">Agriculture/03</option>
-                  <option value="art">Art/13</option>
-                  <option value="biological sciences">Biological Sciences/04</option>
-                  <option value="booth college bus & prof st/76">Booth College Bus & Prof St/76</option>
-                  <option value="career education">Career Education/02</option>
-                  <option value="chemistry">Chemistry/24</option>
-                  <option value="college of arts & sciences">College of Arts & Sciences/71</option>
-                  <option value="college of ed & human serv">College of Ed & Human Serv/73</option>
-                  <option value="communications">Communications/29</option>
-                  <option value="computer sci/info systems">Computer Sci/Info Systems/44</option>
-                  <option value="criminology">Criminology/46</option>
-                  <option value="economics">Economics/52</option>
-                  <option value="education: curriculum">Education: Curriculum/Intr/62</option>
-                  <option value="education: genl/leadership">Education: Genl/Leadership/61</option>
-                  <option value="emergency and disaster">Emergency and Disaster Mgmt/36</option>
-                  <option value="english">English/10</option>
-                  <option value="family & consumer sciences">Family & Consumer Sciences/15</option>
-                  <option value="finance">Finance/53</option>
-                  <option value="foods and nutrition">Foods and Nutrition/47</option>
-                  <option value="geography">Geography/32</option>
-                  <option value="geology">Geology/27</option>
-                  <option value="health & physical education">Health & Physical Education/22</option>
-                  <option value="health sciences">Health Sciences/49</option>
-                  <option value="history">History/33</option>
-                  <option value="humanities">Humanities/26</option>
-                  <option value="inter-college">Inter-College/77</option>
-                  <option value="internationl study">International Study</option>
-                </select>
+                <legend>*Search By Course Number ONLY - DOES NOT require Department or other criteria</legend>
+                <label for="CRN">Search by Course Number (5 Digit Code)</label>
+                <input type="text" name="CRN" id="CRN" required>
 
-
-
-                <label for="level"> Select Level:</label>
-                <select name="reference" id="reference">
-                  <option value="all">ALL</option>
-                  <option value="graduate">Graduate</option>
-                  <option value="specialist">Specialist</option>
-                  <option value="undergraduate">Undergraduate</option>
-                </select>
-
-                <label for="part of term"> Select Part of Term:</label>
-                <select name="reference" id="reference">
-                  <option value="fall">Fall 2022</option>
-                  <option value="spring">Spring 2023</option>
-                </select>
-
-                <label for="course attribute"> Select Course Attribute: </label>
-                <select name="reference" id="reference">
-                  <option value="fall">Fall 2022</option>
-                  <option value="spring">Spring 2023</option>
-                </select>
-
-                <label for="instructor"> Select Instructor: </label>
-                <select name="reference" id="reference">
-                  <option value="fall">Fall 2022</option>
-                  <option value="spring">Spring 2023</option>
-                </select>
-
-
-          </div>
-
-          <feildset>
-            <legend>*Search By Course Number ONLY - DOES NOT require Department or other criteria</legend>
-            <label for="CRN">Search by Course Number (5 Digit Code)</label>
-            <input type="text" name="CRN" id="CRN" required>
-
-            <input type="Submit" id="submit" value="Get Textbook List" classes="btn">
+                <input type="Submit" id="submit" value="Get Textbook List" classes="btn">
 
         </form>
 

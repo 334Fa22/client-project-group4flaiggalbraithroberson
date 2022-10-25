@@ -70,7 +70,7 @@ footer .copyright {
 
 #menu-links {
   display: none;
-  background: #00563F;
+  background-color: #00563F;
 }
 
 /*style rules for main*/
@@ -89,7 +89,7 @@ button:hover {
 }
 
 a:hover {
-  color: #00563F;
+  color: #c0c0c0;
 }
 
 /*style rules for form elements*/

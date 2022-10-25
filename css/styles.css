@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-  font-family: serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
   font-size: 30px;
   background-color: #00563F;
@@ -50,7 +50,7 @@ footer .copyright {
 
 /* Style rules for hamburger menu*/
 .mobile-nav a {
-  font-family: "Francois One", sans-serif;
+  font-family: "Tahoma", sans-serif;
   text-align: center;
   font-size: 1em;
   text-decoration: none;

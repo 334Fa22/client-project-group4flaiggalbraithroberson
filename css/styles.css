@@ -89,7 +89,7 @@ button:hover {
 }
 
 a:hover {
-  color: #c0c0c0;
+  color: #232b2b;
 }
 
 main img {
@@ -132,7 +132,10 @@ form #submit {
   color: #fff;
   background-color: #00563F;
   font-size: 1em;
-  border-radius: 10px;
+}
+
+#submit:hover {
+  background-color: #3b7a57;
 }
 
 #form {

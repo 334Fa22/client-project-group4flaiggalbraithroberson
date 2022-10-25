@@ -73,6 +73,11 @@ a:hover {
   color: #c0c0c0;
 }
 
+main img {
+  width: 100%;
+  height: auto;
+}
+
 /*style rules for form elements*/
 legend {
   font-weight: bold;

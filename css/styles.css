@@ -20,7 +20,7 @@ header img {
 footer .copyright {
   font-size: 0.6em;
   padding-top: 4%;
-  width: 75%;
+  text-align: center;
 }
 
 /* Style rules for hamburger menu*/
@@ -66,6 +66,10 @@ p {
   font-family: "Tahoma", sans-serif;
   font-size: 12px;
   color: #000;
+}
+
+#home {
+  float: right;
 }
 
 .login {

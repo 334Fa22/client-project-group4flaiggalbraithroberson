@@ -39,17 +39,17 @@
 
     <!-- Use the main area to add the main content of the webpage -->
     <main>
+      <div id="home">
+        <a href="index.html" style="text-decoration: none">
+          <button>Home</button>
+        </a>
 
+        <a href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=4bb63286-d69f-4014-ba7a-17ea4d4e2310&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL"
+          style="text-decoration: none">
+          <button>Log In</button>
+        </a>
+      </div>
       <h1>Textbook Services</h1>
-
-      <a href="index.html" style="text-decoration: none">
-        <button>Home</button>
-      </a>
-
-      <a href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=4bb63286-d69f-4014-ba7a-17ea4d4e2310&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL"
-        style="text-decoration: none">
-        <button>Log In</button>
-      </a>
 
 
 
@@ -72,6 +72,7 @@
             <p>*Term selection required for all search criteria</p>
             <label for="term">Select Term:</label>
             <select name="term" id="term">
+              <option value="none"></option>
               <option value="fall">Fall 2022</option>
               <option value="spring">Spring 2023</option>
             </select>
@@ -82,6 +83,7 @@
             <p>*Department selection required for below search options</p>
             <label for="department"> * Search By Department: </label>
             <select name="reference" id="reference">
+              <option value="none"></option>
               <option value="accounting">Accounting/51</option>
               <option value="agriculture">Agriculture/03</option>
               <option value="art">Art/13</option>
@@ -114,6 +116,7 @@
 
             <label for="level"> Select Level:</label>
             <select name="reference" id="reference">
+              <option value="none"></option>
               <option value="all">ALL</option>
               <option value="graduate">Graduate</option>
               <option value="specialist">Specialist</option>
@@ -122,6 +125,7 @@
 
             <label for="part of term"> Select Part of Term:</label>
             <select name="reference" id="reference">
+              <option value="none"></option>
               <option value="1&2 block">1&2 Block</option>
               <option value="2&3 block">2&3 Block </option>
               <option value="7-week block 1">7-week Block 1</option>
@@ -130,6 +134,7 @@
 
             <label for="course attribute"> Select Course Attribute: </label>
             <select name="reference" id="reference">
+              <option value="none"></option>
               <option value="amnh science seminar">AMNH Science Seminar</option>
               <option value="blended course">Blended Course</option>
               <option value="hs dual credit">HS Dual Credit</option>
@@ -137,6 +142,7 @@
 
             <label for="instructor"> Select Instructor: </label>
             <select name="reference" id="reference">
+              <option value="none"></option>
               <option value="abernathy, deborah">Abernathy, Debora</option>
               <option value="abington, casey">Abington, Casey</option>
             </select>

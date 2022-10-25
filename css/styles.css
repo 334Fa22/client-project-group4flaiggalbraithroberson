@@ -95,7 +95,7 @@ a:hover {
 /*style rules for form elements*/
 legend {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   padding-top: 2%;
 }
 
@@ -124,4 +124,8 @@ form #submit {
 
 #form h2 {
   text-align: center;
+}
+
+fieldset {
+  background-color: #dcdcdc;
 }

@@ -9,10 +9,6 @@ Skyler, Sydnei, Megan */
 
 /*Style rules for header*/
 
-header {
-
-}
-
 .catpaws-logo {
   display: none;
 }
@@ -25,7 +21,7 @@ header img {
 /*Footer content*/
 footer .copyright {
   font-size: 0.6em;
-  padding: 2% 4%;
+  padding-top: 4%;
   width: 75%;
 }
 

@@ -97,6 +97,13 @@ main img {
   height: auto;
 }
 
+/*two-column layout for check application status page*/
+.login {
+  float: left;
+  width: 50%;
+  padding: 10%
+}
+
 /*style rules for form elements*/
 legend {
   font-weight: bold;

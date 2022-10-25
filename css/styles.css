@@ -16,12 +16,12 @@ Skyler, Sydnei, Megan */
 
 /*Style rules for header*/
 h1 {
-  font-family: sans-serif;
+  font-family: serif;
   font-weight: bold;
   font-size: 30px;
   background-color: #00563F;
   color: #fff;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 h2 {
@@ -31,6 +31,15 @@ h2 {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 0px;
+}
+
+h3 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #00563F;
+  color: #fff;
+  padding: 20px;
 }
 
 header {
@@ -58,7 +67,6 @@ footer .copyright {
   text-align: center;
   font-size: 1em;
   text-decoration: none;
-  padding: 3%;
   display: block;
 }
 
@@ -74,16 +82,6 @@ footer .copyright {
   display: none;
 }
 
-#form {
-  margin-top: 2%;
-  background-color: #f2f2f2;
-  padding: 2%;
-}
-
-#form h2 {
-  text-align: center;
-}
-
 /*style rules for form elements*/
 feildset legend {
   font-weight: bold;
@@ -93,10 +91,9 @@ feildset legend {
 
 label {
   display: block;
-  padding-top: 2%;
+  padding: 2%;
   font-size: 15px;
-  background-color: #00563F;
-  color: #fff;
+  color: #000;
 }
 
 form #submit {
@@ -108,4 +105,18 @@ form #submit {
   background-color: #00563F;
   font-size: 1em;
   border-radius: 10px;
+}
+
+#form {
+  margin-top: 2%;
+  padding: 2%;
+}
+
+#form h2 {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  margin: 40px;
 }

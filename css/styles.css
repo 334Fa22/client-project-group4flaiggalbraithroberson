@@ -86,16 +86,17 @@ p {
   padding: 10%
 }
 
+.button {
+  display: inline-block;
+}
 button {
   margin: .5em;
   border: none;
-  padding: .5em;
   color: #fff;
   background-color: #00563F;
   font-size: 2em;
   width: 300px;
   height: 150px;
-  display: inline-block;
 }
 
 button:hover {

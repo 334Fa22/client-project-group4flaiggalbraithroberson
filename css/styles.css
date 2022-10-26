@@ -116,10 +116,19 @@ p {
 }
 
 /*two-column layout for check application status page*/
-.login {
+.application-login {
   float: left;
   width: 50%;
-  padding: 2% 5%
+  padding: 2% 5% 5% 5%
+}
+
+.application-info {
+  padding-bottom: 9%;
+  padding-top: 2%
+}
+
+.checkapp-contact p {
+  font-size: 15px;
 }
 
 /*style rules for form elements*/
@@ -130,7 +139,6 @@ form {
 fieldset legend {
   font-weight: bold;
   font-size: 20px;
-  padding-top: 2%;
   font-family: "Tahoma", sans-serif;
   color: #00563F;
 }
@@ -174,3 +182,10 @@ fieldset {
   color: #fff;
   border-color: #232b2b;
 }
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+
+  /* Media Query for Desktop Viewport */
+  @media screen and (min-width: 1015px), print {

@@ -111,10 +111,6 @@ main img {
   height: auto;
 }
 
-p {
-  color: #000;
-}
-
 /*two-column layout for check application status page*/
 .application-login {
   float: left;

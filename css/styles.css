@@ -175,3 +175,9 @@ fieldset {
   color: #fff;
   border-color: #232b2b;
 }
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {  

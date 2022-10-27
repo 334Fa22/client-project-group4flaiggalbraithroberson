@@ -55,20 +55,20 @@
 
           <fieldset>
             <legend>Search by Term</legend>
-            <select name="term" id="term">
-              <option value="none"></option>
-              <option value="fall">Fall 2022</option>
-              <option value="spring">Spring 2023</option>
-            </select>
+            <div id="custom-selct">
+              <select name="term" id="term">
+                <option value="none"></option>
+                <option value="fall">Fall 2022</option>
+                <option value="spring">Spring 2023</option>
+              </select>
+            </div>
             <p>OR</p>
             <legend>Search by Date Range (MM/DD/YYYY)</legend>
             <p>From: <input type="text" name="daterange" id="daterange"></p>
             <p>To: <input type="text" name="daterange" id="daterange"></p>
           </fieldset>
-          <input type="Submit" id="submit" value="Submit" classes="btn">
-
-
-          <input type="Submit" id="submit" value="Reset" classes="btn">
+          <input type="Submit" id="next" value="Submit" classes="btn">
+          <input type="Submit" id="next" value="Reset" classes="btn">
         </form>
       </div>
 

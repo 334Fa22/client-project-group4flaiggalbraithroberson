@@ -68,7 +68,7 @@ h1 {
 
 p {
   font-family: "Tahoma", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   color: #000;
 }
 
@@ -118,8 +118,6 @@ p {
 
 #welcome{
   text-align: center;
-}
-
 
 /*style rules for form elements*/
 form {
@@ -179,7 +177,7 @@ fieldset {
 
   /* Media Query for Desktop Viewport */
   @media screen and (min-width: 1015px), print {
-    
+
     /*two-column layout for desktop check application status page*/
     .application-login {
       float: left;

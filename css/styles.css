@@ -108,6 +108,10 @@ a:hover {
   color: #232b2b;
 }
 
+a:visited {
+  #00563F;
+}
+
 main img {
   width: 100%;
   height: auto;

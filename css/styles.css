@@ -88,8 +88,10 @@ p {
 
 .button {
   display: inline-grid;
+  justify-content: center;
   grid-template-columns: auto;
-  position: relative;
+  align-items: center;
+  position: relative
 }
 
 button {
@@ -198,12 +200,10 @@ p {
   }
 
   main {
-    display: block;
+    display: inline-grid;
     justify-content: center;
-    align-items: center;
   }
 
-  /*Style rules for footer*/
   /* Media Query for Tablet Viewport */
   @media screen and (min-width: 630px), print {
 
@@ -225,4 +225,33 @@ p {
 
     .checkapp-contact p {
       font-size: 15px;
+    }
+
+    /* Tablet Viewport: Style Rules for format*/
+    .button {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: auto auto;
+      align-items: center;
+      position: relative;
+    }
+
+    /* Media Query for Desktop Viewport*/
+    @media screen and (min-width: 1015px), print {
+
+      /* Desktop Viewport: Style rule for header */
+      header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+      }
+
+      /* Desktop Viewport: Style rule for main content*/
+      .button {
+        display: inline-grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        position: relative
+      }
     }

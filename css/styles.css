@@ -116,21 +116,10 @@ p {
   color: #000;
 }
 
-/*two-column layout for check application status page*/
-.application-login {
-  float: left;
-  width: 50%;
-  padding: 2% 5% 5% 5%
+#welcome{
+  text-align: center;
 }
 
-.application-info {
-  padding-bottom: 9%;
-  padding-top: 2%
-}
-
-.checkapp-contact p {
-  font-size: 15px;
-}
 
 /*style rules for form elements*/
 form {
@@ -190,3 +179,19 @@ fieldset {
 
   /* Media Query for Desktop Viewport */
   @media screen and (min-width: 1015px), print {
+    
+    /*two-column layout for desktop check application status page*/
+    .application-login {
+      float: left;
+      width: 50%;
+      padding: 2% 5% 5% 5%
+    }
+
+    .application-info {
+      padding-bottom: 9%;
+      padding-top: 2%
+    }
+
+    .checkapp-contact p {
+      font-size: 15px;
+    }

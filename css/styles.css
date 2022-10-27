@@ -87,7 +87,9 @@ p {
 }
 
 .button {
-  display: inline-block;
+  display: inline-grid;
+  grid-template-columns: auto;
+  position: relative;
 }
 
 button {
@@ -195,12 +197,13 @@ p {
     width: auto;
   }
 
-  .button {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 20px;
+  main {
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
 
+  /*Style rules for footer*/
   /* Media Query for Tablet Viewport */
   @media screen and (min-width: 630px), print {
 

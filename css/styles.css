@@ -86,16 +86,17 @@ p {
   padding: 10%
 }
 
+.button {
+  display: inline-block;
+}
 button {
   margin: .5em;
   border: none;
-  padding: .5em;
   color: #fff;
   background-color: #00563F;
   font-size: 2em;
   width: 300px;
   height: 150px;
-  display: inline-block;
 }
 
 button:hover {
@@ -111,21 +112,12 @@ main img {
   height: auto;
 }
 
-/*two-column layout for check application status page*/
-.application-login {
-  float: left;
-  width: 50%;
-  padding: 2% 5% 5% 5%
+p {
+  color: #000;
 }
 
-.application-info {
-  padding-bottom: 9%;
-  padding-top: 2%
-}
-
-.checkapp-contact p {
-  font-size: 15px;
-}
+#welcome{
+  text-align: center;
 
 /*style rules for form elements*/
 form {
@@ -186,3 +178,19 @@ fieldset {
 
   /* Media Query for Desktop Viewport */
   @media screen and (min-width: 1015px), print {
+
+    /*two-column layout for desktop check application status page*/
+    .application-login {
+      float: left;
+      width: 50%;
+      padding: 2% 5% 5% 5%
+    }
+
+    .application-info {
+      padding-bottom: 9%;
+      padding-top: 2%
+    }
+
+    .checkapp-contact p {
+      font-size: 15px;
+    }

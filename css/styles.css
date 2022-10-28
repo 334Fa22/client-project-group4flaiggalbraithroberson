@@ -62,10 +62,6 @@ h2, h3, h4, h5 {
   font-family: "Tahoma", sans-serif;
 }
 
-h1 {
-  font-size: 35px
-}
-
 p {
   font-family: "Tahoma", sans-serif;
   font-size: 15px;
@@ -80,18 +76,18 @@ p {
   border-radius: 0;
 }
 
-.login {
-  float: left;
-  width: 50%;
-  padding: 10%
-}
-
 .button {
   display: inline-grid;
   justify-content: center;
   grid-template-columns: auto;
   align-items: center;
   position: relative
+}
+
+.login {
+  float: left;
+  width: 50%;
+  padding: 10%
 }
 
 button {
@@ -127,131 +123,136 @@ p {
 
 #welcome {
   text-align: center;
+}
 
-  /*style rules for form elements*/
-  form {
-    font-family: "Tahoma", sans-serif;
-  }
+/*style rules for form elements*/
+form {
+  font-family: "Tahoma", sans-serif;
+  display: block;
+}
 
-  fieldset legend {
-    font-weight: bold;
-    font-size: 20px;
-    font-family: "Tahoma", sans-serif;
-    color: #00563F;
-  }
+fieldset legend {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Tahoma", sans-serif;
+  color: #00563F;
+}
 
-  label {
+label {
+  display: block;
+  padding-left: 1%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: 15px;
+  color: #000;
+  font-family: "Tahoma", sans-serif;
+}
+
+form #submit {
+  margin: 0 auto;
+  margin-top: 2em;
+  border: none;
+  display: block;
+  padding: .5em;
+  color: #fff;
+  background-color: #00563F;
+  font-size: 1em;
+}
+
+#submit:hover {
+  background-color: #3b7a57;
+}
+
+#form {
+  margin-top: 2%;
+  padding: 5%;
+}
+
+#form h2 {
+  text-align: center;
+}
+
+.form-grid {
+  display: inline-block;
+  padding-bottom: 2%;
+  font-family: "Tahoma", sans-serif;
+}
+
+fieldset {
+  background-color: #f5f5f5;
+  color: #fff;
+  border-color: #232b2b;
+  display: block;
+}
+
+input [type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+form {
+  width: auto;
+}
+
+main {
+  display: inline-grid;
+  justify-content: center;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+
+  /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+  .tablet-desktop {
     display: block;
-    padding-left: 1%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    font-size: 15px;
-    color: #000;
-    font-family: "Tahoma", sans-serif;
   }
 
-  form #submit {
-    margin: 0 auto;
-    margin-top: 2em;
-    border: none;
-    display: block;
-    padding: .5em;
-    color: #fff;
-    background-color: #00563F;
-    font-size: 1em;
+  /* Tablet Viewport: Style rule for header */
+  header {
+    margin-bottom:-10px;
   }
 
-  #submit:hover {
-    background-color: #3b7a57;
-  }
+  /* Tablet Viewport: Style rules for nav area */
+nav{
 
-  #form {
-    margin-top: 2%;
-    padding: 5%;
-  }
+float: right
+}
 
-  #form h2 {
-    text-align: center;
-  }
-
-  .form-grid {
-    display: inline-block;
-    padding-bottom: 2%;
-    font-family: "Tahoma", sans-serif;
-  }
-
-  fieldset {
-    background-color: #f5f5f5;
-    color: #fff;
-    border-color: #232b2b;
-    display: block;
-  }
-
-  input [type=text] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 4px;
-  }
-
-  form {
-    width: auto;
-  }
-
-  main {
-    display: inline-grid;
+  /* Tablet Viewport: Style Rules for format*/
+  .button {
+    display: grid;
     justify-content: center;
+    grid-template-columns: auto auto;
+    align-items: center;
+    position: relative;
   }
 
-  /* Media Query for Tablet Viewport */
-  @media screen and (min-width: 630px), print {
+  /* Tablet Viewport: Style Rules for body*/
+  h1 {
+    font-size: 35px;
+  }
 
-    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
-    .tablet-desktop {
-      display: block;
-    }
+  .checkapp-contact p {
+    font-size: 15px;
+  }
 
-    /* Tablet Viewport: Style rule for header */
-    header {
-      padding-bottom: 2%;
-    }
+  /* Media Query for Desktop Viewport*/
+  @media screen and (min-width: 1015px), print {
 
-    /* Tablet Viewport: Style rules for nav area */
-    nav {
-      padding: 1%;
-      margin-bottom: 1%;
-    }
-
-    .checkapp-contact p {
-      font-size: 15px;
-    }
-
-    /* Tablet Viewport: Style Rules for format*/
+    /* Desktop Viewport: Style rule for main content*/
     .button {
-      display: grid;
+      display: inline-grid;
       justify-content: center;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto auto auto;
       align-items: center;
-      position: relative;
+      position: relative
     }
 
-    /* Media Query for Desktop Viewport*/
-    @media screen and (min-width: 1015px), print {
+#application-login{
+  float: left;
+  padding: 50%;
 
-      /* Desktop Viewport: Style rule for header */
-      header {
-        width: 25%;
-        float: left;
-        padding-bottom: 0;
-      }
-
-      /* Desktop Viewport: Style rule for main content*/
-      .button {
-        display: inline-grid;
-        justify-content: center;
-        grid-template-columns: auto auto auto;
-        align-items: center;
-        position: relative
-      }
-    }
+}

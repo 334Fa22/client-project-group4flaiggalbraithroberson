@@ -74,7 +74,8 @@ p {
   height: 40px;
   font-size: 1em;
   border-radius: 0;
-  padding-top: .5em;
+  padding-top: 1em;
+  margin-top: 1em;
 }
 
 .button {
@@ -120,6 +121,8 @@ main img {
 
 p {
   color: #000;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #welcome {
@@ -133,6 +136,7 @@ form {
   width: 80%;
   margin-left: 10%;
   margin-right: 20%;
+  margin-top: 0;
 }
 
 fieldset legend {
@@ -199,6 +203,17 @@ input [type=text] {
 
 main {
   display: inline-grid;
+}
+
+/* Style Rules for Two Column Layout */
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
 }
 
 /* Media Query for Tablet Viewport */

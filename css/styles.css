@@ -200,7 +200,6 @@ form {
 
 main {
   display: inline-grid;
-  justify-content: center;
 }
 
 /* Media Query for Tablet Viewport */

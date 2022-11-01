@@ -130,6 +130,9 @@ p {
 form {
   font-family: "Tahoma", sans-serif;
   display: block;
+  width: auto;
+  margin: 0 auto;
+  width: 1000px;
 }
 
 fieldset legend {
@@ -192,10 +195,6 @@ input [type=text] {
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 4px;
-}
-
-form {
-  width: auto;
 }
 
 main {

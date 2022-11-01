@@ -74,6 +74,7 @@ p {
   height: 40px;
   font-size: 1em;
   border-radius: 0;
+  padding-top: .5em;
 }
 
 .button {
@@ -212,14 +213,13 @@ main {
 
   /* Tablet Viewport: Style rule for header */
   header {
-    margin-bottom:-10px;
+    margin-bottom: -10px;
   }
 
   /* Tablet Viewport: Style rules for nav area */
-nav{
-
-float: right
-}
+  nav {
+    float: right
+  }
 
   /* Tablet Viewport: Style Rules for format*/
   .button {
@@ -251,8 +251,7 @@ float: right
       position: relative
     }
 
-#application-login{
-  float: left;
-  padding: 50%;
-
-}
+    #application-login {
+      float: left;
+      padding: 50%;
+    }

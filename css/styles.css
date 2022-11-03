@@ -54,8 +54,8 @@ h1 {
   font-size: 25px;
   color: #232b2b;
   padding: 5px;
-  padding-left: 20px;
   margin-top: auto;
+  text-align: center;
 }
 
 h2, h3, h4, h5 {
@@ -70,12 +70,10 @@ p {
 
 #home button {
   float: right;
-  width: 100px;
-  height: 40px;
+  width: 60px;
+  height: 30px;
   font-size: 1em;
   border-radius: 0;
-  padding-top: 1em;
-  margin-top: 1em;
 }
 
 .button {
@@ -260,14 +258,42 @@ main {
     margin-right: 10px
   }
 
+  #home button {
+    float: right;
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 0;
+    margin-top: 1em;
+  }
+
   /* Media Query for Desktop Viewport*/
   @media screen and (min-width: 1015px), print {
 
     /* Desktop Viewport: Style rule for main content*/
+    h1 {
+      font-family: "Tahoma", sans-serif;
+      font-size: 35px;
+      color: #232b2b;
+      padding: 5px;
+      padding-left: 20px;
+      margin-top: auto;
+      text-align: left;
+    }
+
     .button {
       display: inline-grid;
       justify-content: center;
       grid-template-columns: auto auto auto;
       align-items: center;
       position: relative
+    }
+
+    #home button {
+      float: right;
+      width: 100px;
+      height: 40px;
+      font-size: 1em;
+      border-radius: 0;
+      margin-top: 1em;
     }

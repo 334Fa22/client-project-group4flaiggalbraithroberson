@@ -230,9 +230,7 @@ main {
   }
 
   /* Tablet Viewport: Style rules for nav area */
-  nav {
-
-  }
+  nav {}
 
   /* Tablet Viewport: Style Rules for format*/
   .button {
@@ -247,19 +245,21 @@ main {
   h1 {
     font-size: 35px;
   }
-/*Tablet Viewport: Style rules for nav*/
+
+  /*Tablet Viewport: Style rules for nav*/
   .checkapp-contact p {
     font-size: 15px;
   }
 
   .mobile-nav a {
-padding: 1%;
-}
+    padding: 1%;
+  }
 
-.mobile-nav a.menu-icon {
-margin-top: 5px;
-margin-right: 10px
-}
+  .mobile-nav a.menu-icon {
+    margin-top: 5px;
+    margin-right: 10px
+  }
+
   /* Media Query for Desktop Viewport*/
   @media screen and (min-width: 1015px), print {
 

@@ -203,16 +203,6 @@ main {
   display: inline-grid;
 }
 
-/* Style Rules for Two Column Layout */
-.column1 {
-  float: left;
-  width: 50%;
-}
-
-.column2 {
-  float: left;
-  width: 50%;
-}
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
@@ -287,6 +277,17 @@ main {
       grid-template-columns: auto auto auto;
       align-items: center;
       position: relative
+    }
+    
+    /* Style Rules for Two Column Layout */
+    .column1 {
+      float: left;
+      width: 50%;
+    }
+
+    .column2 {
+      float: left;
+      width: 50%;
     }
 
     #home button {

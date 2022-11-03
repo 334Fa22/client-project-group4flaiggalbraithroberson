@@ -16,13 +16,6 @@ header img {
   height: auto;
 }
 
-/*Footer content*/
-footer .copyright {
-  font-size: 0.6em;
-  padding-top: 4%;
-  text-align: center;
-}
-
 /* Style rules for hamburger menu*/
 .mobile-nav a {
   font-family: "Tahoma", sans-serif;
@@ -49,6 +42,23 @@ footer .copyright {
 }
 
 /*style rules for main*/
+
+#home button {
+  float: right;
+  width: 60px;
+  height: 30px;
+  font-size: 1em;
+  border-radius: 0;
+}
+
+.button {
+  display: inline-grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  align-items: center;
+  position: relative
+}
+
 h1 {
   font-family: "Tahoma", sans-serif;
   font-size: 25px;
@@ -66,22 +76,6 @@ p {
   font-family: "Tahoma", sans-serif;
   font-size: 15px;
   color: #000;
-}
-
-#home button {
-  float: right;
-  width: 60px;
-  height: 30px;
-  font-size: 1em;
-  border-radius: 0;
-}
-
-.button {
-  display: inline-grid;
-  justify-content: center;
-  grid-template-columns: auto;
-  align-items: center;
-  position: relative
 }
 
 .login {
@@ -109,7 +103,7 @@ a:hover {
 }
 
 a:visited {
-  #00563F;
+color:  #00563f;
 }
 
 main img {
@@ -203,6 +197,13 @@ main {
   display: inline-grid;
 }
 
+/*Footer content*/
+footer .copyright {
+  font-size: 0.6em;
+  padding-top: 4%;
+  text-align: center;
+}
+
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
@@ -256,6 +257,7 @@ main {
     border-radius: 0;
     margin-top: 1em;
   }
+}
 
   /* Media Query for Desktop Viewport*/
   @media screen and (min-width: 1015px), print {
@@ -278,7 +280,7 @@ main {
       align-items: center;
       position: relative
     }
-    
+
     /* Style Rules for Two Column Layout */
     .column1 {
       float: left;
@@ -298,3 +300,4 @@ main {
       border-radius: 0;
       margin-top: 1em;
     }
+}

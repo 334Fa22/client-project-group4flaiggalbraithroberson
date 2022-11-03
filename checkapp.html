@@ -36,13 +36,14 @@
     <!-- Use the main area to add the main content of the webpage -->
     <main>
       <div id="home">
-        <a href="index.html" style="text-decoration: none">
+        <form style="display: inline" action="index.html" method="get">
           <button>Home</button>
-        </a>
-        <a href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=4bb63286-d69f-4014-ba7a-17ea4d4e2310&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL"
-          style="text-decoration: none">
+        </form>
+        <form style="display: inline"
+          action="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=4bb63286-d69f-4014-ba7a-17ea4d4e2310&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL"
+          method="get">
           <button>Log In</button>
-        </a>
+        </form>
       </div>
 
       <!-- Form properties -->
@@ -62,7 +63,7 @@
               </fieldset>
 
               <input type="submit" id="submit" value="Submit" class="btn">
-              </fieldset>
+
               <br>
               <a href="https://ssbprod.nwmissouri.edu/PROD/nwforget.P_Inputdata">Forgot Username or Password?</a>
               <br><a href="https://ssbprod.nwmissouri.edu/PROD/nwfirst.P_Inputdata">New User?</a>
@@ -70,7 +71,8 @@
           </div>
         </div>
         <div class="column2">
-          <div class="application-info" <h4>Are you a <i>domestic undergraduate</i> student?</h4>
+          <div class="application-info">
+            <h4> Are you a <i>domestic undergraduate</i> student?</h4>
             <p><a href="https://nwmissouri.elluciancrmrecruit.com/Apply/Account/Login?ReturnUrl=%2fApply">Start your undergraduate application</a></p>
             <div class="checkapp-contact">
               <p>If you have questions about the application or submission process, please call us at <a href="tel:18006331175">1.800.633.1175</a>.</p>

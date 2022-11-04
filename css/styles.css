@@ -76,6 +76,18 @@ p {
   border-radius: 0;
 }
 
+#homereset button {
+  width: 70px;
+  height: 40px;
+  border: none;
+  display: block;
+  color: #fff;
+  background-color: #00563F;
+  font-size: 1em;
+  float: center;
+  margin-top: 1em;
+}
+
 .button {
   display: inline-grid;
   justify-content: center;
@@ -203,7 +215,6 @@ main {
   display: inline-grid;
 }
 
-
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
 
@@ -278,7 +289,7 @@ main {
       align-items: center;
       position: relative
     }
-    
+
     /* Style Rules for Two Column Layout */
     .column1 {
       float: left;

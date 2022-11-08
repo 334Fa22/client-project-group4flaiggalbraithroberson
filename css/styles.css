@@ -216,9 +216,6 @@ input [type=text] {
   border-radius: 4px;
 }
 
-main {
-  display: inline-grid;
-}
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {

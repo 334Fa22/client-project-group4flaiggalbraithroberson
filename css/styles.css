@@ -77,13 +77,6 @@ p {
   color: #000;
 }
 
-#home button {
-  float: right;
-  width: 60px;
-  height: 30px;
-  font-size: 1em;
-  border-radius: 0;
-}
 
 #homereset button {
   width: 70px;
@@ -95,14 +88,6 @@ p {
   font-size: 1em;
   float: center;
   margin-top: 1em;
-}
-
-.button {
-  display: inline-grid;
-  justify-content: center;
-  grid-template-columns: auto;
-  align-items: center;
-  position: relative
 }
 
 .login {

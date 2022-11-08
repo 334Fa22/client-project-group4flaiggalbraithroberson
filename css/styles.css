@@ -201,6 +201,9 @@ input [type=text] {
   border-radius: 4px;
 }
 
+.banner {
+  display: none;
+}
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
@@ -230,6 +233,10 @@ input [type=text] {
   /* Tablet Viewport: Style Rules for body*/
   h1 {
     font-size: 35px;
+  }
+
+  .banner {
+    display: none;
   }
 
   /*Tablet Viewport: Style rules for nav*/
@@ -278,6 +285,10 @@ input [type=text] {
     position: relative
   }
 
+  .banner {
+    display: contents;
+  }
+
   /* Style Rules for Two Column Layout on Check Application page */
   .column1 {
     float: left;
@@ -297,5 +308,4 @@ input [type=text] {
     border-radius: 0;
     margin-top: 1em;
   }
-
 }

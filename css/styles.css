@@ -280,6 +280,16 @@ footer {
 /* Media Query for Desktop Viewport*/
 @media screen and (min-width: 1015px), print {
 
+  /*Desktop Viewport: Style rules for nav*/
+  .mobile-nav a.menu-icon {
+    color: #fff;
+    font-size: 40px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
   /* Desktop Viewport: Style rule for main content*/
   h1 {
     font-family: "Tahoma", sans-serif;

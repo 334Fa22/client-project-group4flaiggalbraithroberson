@@ -55,7 +55,8 @@ header img {
   justify-content: center;
   grid-template-columns: auto;
   align-items: center;
-  position: relative
+  position: relative;
+  margin: auto;
 }
 
 h1 {
@@ -225,6 +226,7 @@ input [type=text] {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    margin: auto;
   }
 
   /* Tablet Viewport: Style Rules for body*/
@@ -279,7 +281,8 @@ input [type=text] {
     justify-content: center;
     grid-template-columns: auto auto auto;
     align-items: center;
-    position: relative
+    position: relative;
+    margin: auto;
   }
 
   .banner {

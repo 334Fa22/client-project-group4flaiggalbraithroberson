@@ -219,6 +219,21 @@ footer {
   text-align: center;
 }
 
+/* Media Query for Moblie Viewport */
+@media screen and (min-width: 300px), print {
+  #home button {
+    float: right;
+    width: 60px;
+    height: 30px;
+    font-size: 1em;
+    border-radius: 0;
+  }
+
+  h1 {
+    display: block;
+  }
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
 

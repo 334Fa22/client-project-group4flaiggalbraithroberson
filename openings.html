@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Class Openings</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!-- Use the header area for the website name or logo -->
+
+  <header>
+    <img src="images/header.png" alt="catpaw logo">
+  </header>
+
+  <div id="container">
+
+    <!--Mobile Nav -->
+    <nav class="mobile-nav">
+      <div id="menu-links">
+        <a href="index.html">Home</a>
+        <a href="openings.html">Class Openings At-a-glance</a>
+        <a href="textbook.html">Textbook Services</a>
+        <a href="schedule.html">Class Schedule in Detail</a>
+        <a href="checkapp.html">Check Application Status</a>
+        <a href="accessibility.html">Accessibility</a>
+      </div>
+      <a class="menu-icon" onclick="hamburger()">
+        <div>&#9776;</div>
+      </a>
+    </nav>
+
+
+
+    <!-- Use the main area to add the main content of the webpage -->
+    <main>
+      <div id="home">
+        <form style="display: inline" action="index.html" method="get">
+          <button>Home</button>
+        </form>
+        <form style="display: inline"
+          action="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=4bb63286-d69f-4014-ba7a-17ea4d4e2310&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL"
+          method="get">
+          <button>Log In</button>
+        </form>
+      </div>
+
+      <h1>Class Openings At-a-Glance</h1>
+
+
+      <p><a href="https://www.nwmissouri.edu/registrar/prereg.htm">When Can I Enroll?</a> | <a href="https://www.nwmissouri.edu/registrar/PDF/prereg_RefSheet.pdf">Preregistration Advisement Sheet</a></p>
+
+      <p>Note: Publication of the trimester Class Schedule/Class Openings should not be considered a guarantee, and are subject to change based on availability of resources and programmatic needs.</p>
+
+
+      <!-- Form properties -->
+      <div id="form">
+        <form class="form-grid">
+
+          <fieldset>
+            <legend>Term</legend>
+            <p>*Term selection required for all search criteria</p>
+            <label for="term"> Select Term:</label>
+            <select name="term" id="term">
+              <option value="none">-</option>
+              <option value="fall">Fall 2022</option>
+              <option value="spring">Spring 2023</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Department</legend>
+            <p>*Department selection required for below search options</p>
+            <label for="department"> * Search By Department: </label>
+            <select name="department" id="department">
+              <option value="none">-</option>
+              <option value="accounting">Accounting/51</option>
+              <option value="agriculture">Agriculture/03</option>
+              <option value="art">Art/13</option>
+              <option value="biological sciences">Biological Sciences/04</option>
+              <option value="booth college bus & prof st/76">Booth College Bus & Prof St/76</option>
+              <option value="career education">Career Education/02</option>
+              <option value="chemistry">Chemistry/24</option>
+              <option value="college of arts & sciences">College of Arts & Sciences/71</option>
+              <option value="college of ed & human serv">College of Ed & Human Serv/73</option>
+              <option value="communications">Communications/29</option>
+              <option value="computer sci/info systems">Computer Sci/Info Systems/44</option>
+              <option value="criminology">Criminology/46</option>
+              <option value="economics">Economics/52</option>
+              <option value="education: curriculum">Education: Curriculum/Intr/62</option>
+              <option value="education: genl/leadership">Education: Genl/Leadership/61</option>
+              <option value="emergency and disaster">Emergency and Disaster Mgmt/36</option>
+              <option value="english">English/10</option>
+              <option value="family & consumer sciences">Family & Consumer Sciences/15</option>
+              <option value="finance">Finance/53</option>
+              <option value="foods and nutrition">Foods and Nutrition/47</option>
+              <option value="geography">Geography/32</option>
+              <option value="geology">Geology/27</option>
+              <option value="health & physical education">Health & Physical Education/22</option>
+              <option value="health sciences">Health Sciences/49</option>
+              <option value="history">History/33</option>
+              <option value="humanities">Humanities/26</option>
+              <option value="inter-college">Inter-College/77</option>
+              <option value="internationl study">International Study</option>
+            </select>
+
+
+            <label for="level"> Select Level:</label>
+            <select name="level" id="level">
+              <option value="none">-</option>
+              <option value="all">ALL</option>
+              <option value="graduate">Graduate</option>
+              <option value="specialist">Specialist</option>
+              <option value="undergraduate">Undergraduate</option>
+            </select>
+
+            <label for="part"> Select Part of Term:</label>
+            <select name="part" id="part">
+              <option value="none">-</option>
+              <option value="1&2 block">1&2 Block</option>
+              <option value="2&3 block">2&3 Block </option>
+              <option value="7-week block 1">7-week Block 1</option>
+              <option value="7-week block 2">7-week Block 2</option>
+            </select>
+
+            <label for="attribute"> Select Course Attribute: </label>
+            <select name="attribute" id="attribute">
+              <option value="none">-</option>
+              <option value="amnh science seminar">AMNH Science Seminar</option>
+              <option value="blended course">Blended Course</option>
+              <option value="hs dual credit">HS Dual Credit</option>
+            </select>
+
+            <label for="instructor"> Select Instructor: </label>
+            <select name="instructor" id="instructor">
+              <option value="none">-</option>
+              <option value="abernathy, deborah">Abernathy, Debora</option>
+              <option value="abington, casey">Abington, Casey</option>
+            </select>
+          </fieldset>
+
+
+
+          <fieldset>
+            <legend>Course Number</legend>
+            <p>*Search By Course Number ONLY - Other criteria are ignored</p>
+            <label for="CRN">Enter by Course Number (5 Digit Number):</label>
+            <input type="text" name="CRN" id="CRN" required>
+
+
+            <p>*Search By Course Number ONLY - Other criteria are ignored</p>
+            <label for="Core">Select Northwest Core Category:</label>
+            <input type="text" name="Core" id="Core" required>
+          </fieldset>
+          <input type="Submit" id="submit" value="Get Class Openings" class="btn">
+
+        </form>
+      </div>
+
+      <p>For text book information, <a href="textbook.html">Click here</a></p>
+
+    </main>
+
+    <!-- Use the footer area to add webpage footer content -->
+    <footer>
+      <div class="copyright">
+        <p>This website is for educational purposes only and is not meant to be used by the public.<br>
+          &copy; 2022 Ellucian Company L.P. and its affiliates. <br>
+          This software contains confidential and proprietary information of Ellucian or its subsidiaries.<br>
+          Use of this software is limited to Ellucian licensees, and is subject to the terms and conditions of one or more written license agreements between Ellucian and such licensees.</p>
+      </div>
+    </footer>
+
+
+
+  </div>
+
+  <script src="scripts/script.js"></script>
+
+</body>
+
+</html>

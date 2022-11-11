@@ -236,11 +236,11 @@ footer {
 
   /* Tablet Viewport: Style Rules for format*/
   .button {
-    display: grid;
-    grid-template-columns: auto auto;
+ display: inline-grid;
+   grid-template-columns: auto auto;
     align-items: center;
     margin: auto;
-  }
+}
 
   /* Tablet Viewport: Style Rules for body*/
   h1 {

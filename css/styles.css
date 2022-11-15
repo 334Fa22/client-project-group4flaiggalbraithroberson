@@ -79,11 +79,11 @@ p {
   color: #000;
 }
 
-#homereset button {
+.homereset {
   width: 70px;
   height: 40px;
   border: none;
-  display: block;
+  display: inline;
   color: #fff;
   background-color: #00563F;
   font-size: 1em;
@@ -236,11 +236,11 @@ footer {
 
   /* Tablet Viewport: Style Rules for format*/
   .button {
- display: inline-grid;
-   grid-template-columns: auto auto;
+    display: inline-grid;
+    grid-template-columns: auto auto;
     align-items: center;
     margin: auto;
-}
+  }
 
   /* Tablet Viewport: Style Rules for body*/
   h1 {
@@ -271,15 +271,6 @@ footer {
   .mobile-nav a.menu-icon {
     margin-top: 5px;
     margin-right: 10px
-  }
-
-  #accessibility button {
-    border: none;
-    color: #fff;
-    background-color: #00563F;
-    font-size: 1em;
-    width: 700px;
-    height: 50px;
   }
 }
 

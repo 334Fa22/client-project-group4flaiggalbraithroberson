@@ -51,6 +51,7 @@ header img {
   position: relative;
   margin: auto;
 }
+
 /*rules for home and login button*/
 #home button {
   width: 70px;
@@ -235,6 +236,17 @@ footer {
     grid-template-columns: auto auto;
     align-items: center;
     margin: auto;
+  }
+
+  button {
+    margin: 1em;
+    border: none;
+    color: #fff;
+    background-color: #00563F;
+    font-size: 1.2em;
+    width: 200px;
+    height: 160px;
+    border-radius: 12px;
   }
 
   /* Tablet Viewport: Style Rules for body*/

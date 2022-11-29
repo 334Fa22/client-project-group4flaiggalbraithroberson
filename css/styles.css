@@ -313,6 +313,7 @@ footer {
 
   .banner {
     display: contents;
+    width: auto;
   }
 
   #home button {

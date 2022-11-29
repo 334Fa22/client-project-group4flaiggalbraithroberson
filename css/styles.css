@@ -44,13 +44,14 @@ header img {
 
 /*style rules for main*/
 .button {
-  display: inline-grid;
+  display: inline-block;
   justify-content: center;
   grid-template-columns: auto;
   align-items: center;
   position: relative;
   margin: auto;
 }
+
 /*rules for home and login button*/
 #home button {
   width: 70px;
@@ -101,7 +102,7 @@ button {
   border: none;
   color: #fff;
   background-color: #00563F;
-  font-size: 1.7em;
+  font-size: 1.5em;
   width: 300px;
   height: 170px;
   border-radius: 12px;
@@ -210,6 +211,7 @@ input [type=text] {
 /*Style rules for footer*/
 footer {
   text-align: center;
+  margin-top: 50px;
 }
 
 /* Media Query for Tablet Viewport */
@@ -228,6 +230,17 @@ footer {
     grid-template-columns: auto auto;
     align-items: center;
     margin: auto;
+  }
+
+  button {
+    margin: 1em;
+    border: none;
+    color: #fff;
+    background-color: #00563F;
+    font-size: 1.2em;
+    width: 200px;
+    height: 160px;
+    border-radius: 12px;
   }
 
   /* Tablet Viewport: Style Rules for body*/
@@ -287,8 +300,20 @@ footer {
     border-radius: 12px;
   }
 
+  button {
+    margin: 1em;
+    border: none;
+    color: #fff;
+    background-color: #00563F;
+    font-size: 1.5em;
+    width: 300px;
+    height: 170px;
+    border-radius: 12px;
+  }
+
   .banner {
     display: contents;
+    width: auto;
   }
 
   #home button {

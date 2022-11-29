@@ -44,7 +44,7 @@ header img {
 
 /*style rules for main*/
 .button {
-  display: inline-grid;
+  display: inline-block;
   justify-content: center;
   grid-template-columns: auto;
   align-items: center;
@@ -102,7 +102,7 @@ button {
   border: none;
   color: #fff;
   background-color: #00563F;
-  font-size: 1.7em;
+  font-size: 1.5em;
   width: 300px;
   height: 170px;
   border-radius: 12px;
@@ -211,6 +211,7 @@ input [type=text] {
 /*Style rules for footer*/
 footer {
   text-align: center;
+  margin-top: 50px;
 }
 
 /* Media Query for Moblie Viewport */

@@ -51,14 +51,12 @@ header img {
   position: relative;
   margin: auto;
 }
-
+/*rules for home and login button*/
 #home button {
   width: 70px;
   height: 30px;
   font-size: 1em;
-  border-radius: 0;
   float: right;
-  display: block;
   border-radius: 12px;
 }
 
@@ -211,13 +209,6 @@ input [type=text] {
 /*Style rules for footer*/
 footer {
   text-align: center;
-}
-
-/* Media Query for Moblie Viewport */
-@media screen and (min-width: px), print {
-  h1 {
-    display: block;
-  }
 }
 
 /* Media Query for Tablet Viewport */
